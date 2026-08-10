@@ -5,7 +5,7 @@ This portfolio highlights practical experience across Linux/Windows connectivity
 
 ---
 
-## 📁 Project Index
+## Project Index
 
 ### 1. Rocky Linux ↔ Windows Server Connectivity & Troubleshooting  
 **File:** Rocky-Linux-connect-Windows-Server-with-troubleshoot.md  
@@ -42,6 +42,6 @@ This lab supports hands‑on practice with authentication flows, DNS behavior, L
 
 ---
 
-## 🚧 Status  
+## Status  
 This portfolio is actively being expanded with new labs, documentation, and automation projects.
 
