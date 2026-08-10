@@ -4,7 +4,7 @@ This project is a Python script that calculates Total Daily Energy Expenditure (
 
 ---
 
-## 📌 Features
+## Features
 - Converts weight (lbs → kg) and height (ft/in → cm)
 - Calculates BMR using the Mifflin–St Jeor equation
 - Determines activity level based on weekly workout minutes
@@ -18,7 +18,7 @@ This project is a Python script that calculates Total Daily Energy Expenditure (
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 - Python variables  
 - User input handling  
 - Math operations  
@@ -28,7 +28,7 @@ This project is a Python script that calculates Total Daily Energy Expenditure (
 
 ---
 
-## 🧩 Full Script
+## Full Script
 
 ```python
 import math
@@ -85,6 +85,6 @@ for goal, value in goals.items():
 
 ---
 
-## ✅ Summary
+## Summary
 This script provides a quick estimate of daily calorie needs and demonstrates practical Python programming skills suitable for entry‑level IT automation and scripting.
 
