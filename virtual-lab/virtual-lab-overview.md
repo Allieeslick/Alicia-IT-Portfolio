@@ -47,13 +47,22 @@ This server is the backbone of the environment. It handles identity, DNS resolut
 ---
 
 ## **Linux Clients**
+
 ### **Rocky Linux 10**
 - **IP:** 192.168.10.20  
 - **DNS:** 192.168.10.10  
 - **Gateway:** none  
 - **Role:** Linux client configured for AD integration  
-- **Purpose:** SSSD, Kerberos, domain join testing, Linux administration practice  
+- **Purpose:** SSSD, Kerberos, domain join testing, Linux administration practice
 
+## **Kali Linux**
+- **IP:** 10.0.2.15/24
+- **DNS:** 192.168.1.1, 206.225.75.225
+- **Gateway:** 10.0.2.2
+- **Role:** Cybersecurity and digital forensics Linux Workstation
+- **Purpose:** Bash.Linux administration, security log analysis, networking, and digital forensics training.
+- **Note:** Added after the initial server/client lab setup and currently operates separately from the internal 192.168.10.0/24 lab network.
+  
 ### **Ubuntu 24.04**
 - **IP:** 192.168.10.30  
 - **DNS:** 192.168.10.10  
