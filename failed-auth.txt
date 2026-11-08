@@ -1,0 +1,4 @@
+Failed login for admin
+FAILED password attempt for root
+failed authentication for guest
+Access denied for user test
