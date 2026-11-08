@@ -1,42 +1,48 @@
-This project uses a Bash script to automate basic security log analysis.
-The script accepts a log file as an argument, searches it for failed and denied events,
-saves matching entries to an output file, and reports the number of suspicious events found.
+# Alicia Eslick – IT Portfolio
 
-HOW IT WORKS
-The script uses the first command-line argument ($1) as the log file to analyze. This allows the same
-script to analyze different log files without changing the script itself.
+I’m an Information Technology student building my technical foundation through hands‑on virtual machine labs. I’m focused on developing strong core IT skills while exploring opportunities to grow into Healthcare IT in the future. This portfolio highlights the projects I’ve completed along the way.
 
-It als checks whether a filenmae was provided and whether that file actually exists before beginning
-the analysis.
+---
 
-LOG ANALYSIS
-The script searches the selected log file for events containing the words failed or denied. The search
-is case-insensitive so variations in captialization are still detected.
+## 📁 Projects
 
-Matching events are saved to failed-auth.trxt. The script then counts the  number of matching lines
-displays the total to the user.
+### Rocky Linux ↔ Windows Server Connectivity
+Documentation of connecting Rocky Linux to a Windows Server domain with troubleshooting steps.  
+**Folder:** [`Rocky-Linux-Windows-Connectivity`](Rocky-Linux-Windows-Connectivity)  
+- [`Rocky-Linux-connect-Windows-Server-with-troublehoot.md`](Rocky-Linux-Windows-Connectivity/Rocky-Linux-connect-Windows-Server-with-troublehoot.md)
 
-USAGE
-Run the script by providing the log file you want to analyze:
+---
 
-bash analyze-log.sh <logfile>
+### DNS Troubleshooting
+Breakdown of DNS issues, testing, and resolution steps performed in a virtual lab.  
+**Folder:** [`dns-troubleshooting`](dns-troubleshooting)  
+- [`dns-troubleshooting.md`](dns-troubleshooting/dns-troubleshooting.md)
 
-For example:
+---
 
-bash analyze-log.sh auth.log
+### Virtual Lab Overview
+Overview of the virtual environment used for all projects, including network layout and VM structure.  
+**Folder:** [`virtual-lab`](virtual-lab)  
+- [`virtual-lab-overview.md`](virtual-lab/virtual-lab-overview.md)
 
-Example output: 
+---
 
-Suspicious events found: 4
-Results saved to: failed-auth.txt
+### Cisco Routed Network (Packet Tracer)
+A routed network configuration using Cisco Packet Tracer, including documentation and the `.pkt` file.  
+**Folder:** [`Cisco-routed-network`](Cisco-routed-network)  
+- [`PC0-to-PC1-routed-network.md`](Cisco-routed-network/PC0-to-PC1-routed-network.md)  
+- [`PC0-to-PC1-routed-network.pkt`](Cisco-routed-network/PC0-to-PC1-routed-network.pkt)
 
-SKILLS DEMONSTRATED
+---
 
-* Bash scripting and automation
-* Command-line arguments and variables
-* Conditional statements and file validation
-* Searching log data with grep
-* Input/Output redirection using > and >>
-* Counting results with wc
-* Basic security log analysis
-* Git and GitHub version control
+### TDEE Calculator (Python)
+A Python-based Total Daily Energy Expenditure calculator with documentation.  
+**Folder:** [`TDEE-calculator-python`](TDEE-calculator-python)  
+- [`TDEE-Calculator.md`](TDEE-calculator-python/TDEE-Calculator.md)  
+- [`TDEE-Calculator.py`](TDEE-calculator-python/TDEE-Calculator.py)
+
+---
+
+## 📌 About This Portfolio
+This repository contains hands‑on IT projects completed in a virtual lab environment. Each folder represents a standalone project with its own documentation, configuration steps, and supporting files. These labs help build the foundational skills I’ll carry into Healthcare IT and Healthcare Informatics.
+
