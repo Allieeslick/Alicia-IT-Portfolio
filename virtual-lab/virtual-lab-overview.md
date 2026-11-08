@@ -1,7 +1,7 @@
 # **Virtual Lab Network Overview**
 
 ## **Purpose of the Lab**
-My virtual lab is a fully isolated environment built for practicing Windows Server administration, Windows client management, Linux configuration, networking, and cross‑platform troubleshooting. All machines run in VirtualBox using an **Internal Network**, allowing them to communicate with each other without touching my physical home network.
+My virtual lab is a fully isolated environment built for practicing Windows Server administration, Windows client management, Linux configuration, networking, and cross‑platform troubleshooting. The core server/client lab runs in VirtualBox using an **Internal Network**, while additional training VMs may use separate network configurations depending on their purpose.
 
 This setup lets me safely test:
 
@@ -60,7 +60,7 @@ This server is the backbone of the environment. It handles identity, DNS resolut
 - **DNS:** 192.168.1.1, 206.225.75.225
 - **Gateway:** 10.0.2.2
 - **Role:** Cybersecurity and digital forensics Linux Workstation
-- **Purpose:** Bash.Linux administration, security log analysis, networking, and digital forensics training.
+- **Purpose:** Bash, Linux administration, security log analysis, networking, and digital forensics training.
 - **Note:** Added after the initial server/client lab setup and currently operates separately from the internal 192.168.10.0/24 lab network.
   
 ### **Ubuntu 24.04**
