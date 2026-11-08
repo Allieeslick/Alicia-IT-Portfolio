@@ -1,6 +1,6 @@
 # Alicia Eslick – IT Portfolio
 
-I’m an Information Technology student building my technical foundation through hands‑on virtual machine labs. I’m focused on developing strong core IT skills while exploring opportunities to grow into Healthcare IT in the future. This portfolio highlights the projects I’ve completed along the way.
+I’m an Information Technology student building my technical foundation through hands‑on virtual machine labs. I’m focused on developing strong core IT skills while exploring opportunities to grow into Digital Forensics in the future. This portfolio highlights the projects I’ve completed along the way.
 
 ---
 
